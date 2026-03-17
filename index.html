@@ -405,13 +405,13 @@
         .chat-bubble {
             position: fixed; bottom: 90px; right: 24px; z-index: 350;
             width: 52px; height: 52px; border-radius: 50%;
-            background: var(--green); border: none; cursor: pointer;
+            background: #6366f1; border: none; cursor: pointer;
             display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 4px 16px rgba(18,128,129,0.35);
+            box-shadow: 0 4px 16px rgba(99,102,241,0.4);
             transition: all 0.2s ease;
         }
-        .chat-bubble:hover { background: var(--green-hover); transform: scale(1.07); box-shadow: 0 6px 20px rgba(18,128,129,0.45); }
-        .chat-bubble.open  { background: var(--primary); }
+        .chat-bubble:hover { background: #4f46e5; transform: scale(1.07); box-shadow: 0 6px 20px rgba(99,102,241,0.5); }
+        .chat-bubble.open  { background: #4f46e5; }
 
         .chat-panel {
             position: fixed; bottom: 154px; right: 24px; z-index: 350;
@@ -425,7 +425,7 @@
         @keyframes chatUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
         .chat-header {
-            background: var(--green); border-radius: var(--radius) var(--radius) 0 0;
+            background: #6366f1; border-radius: var(--radius) var(--radius) 0 0;
             padding: 18px 20px;
         }
         .chat-header-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
@@ -464,11 +464,11 @@
         .chat-input::placeholder { color: var(--text-tertiary); }
         .chat-send {
             width: 34px; height: 34px; border-radius: 50%;
-            background: var(--green); border: none; cursor: pointer;
+            background: #6366f1; border: none; cursor: pointer;
             display: flex; align-items: center; justify-content: center;
             flex-shrink: 0; transition: background 0.15s;
         }
-        .chat-send:hover { background: var(--green-hover); }
+        .chat-send:hover { background: #4f46e5; }
 
         /* ── TOAST ── */
         .toast {
