@@ -261,7 +261,8 @@
             cursor: pointer; font-family: inherit; text-align: left;
             transition: background 0.15s;
         }
-        .timeline-toggle:hover { background: var(--border-light); }
+        .timeline-toggle:hover { background: var(--border-light); border-radius: 0 0 var(--radius) var(--radius); }
+        .timeline-toggle.open:hover { border-radius: 0; }
         .timeline-arrow { margin-left: auto; transition: transform 0.25s ease; }
         .timeline-toggle.open .timeline-arrow { transform: rotate(180deg); }
 
