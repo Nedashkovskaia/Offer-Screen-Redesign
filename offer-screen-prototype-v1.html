@@ -30,7 +30,7 @@
         }
 
         html { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
-        body  { background: var(--bg); color: var(--text); min-height: 100vh; padding-bottom: 90px; }
+        body  { background: var(--bg); color: var(--text); min-height: 100vh; padding-bottom: 90px; padding-top: 52px; }
 
         .content {
             max-width: var(--content-width);
@@ -40,6 +40,7 @@
 
         /* ── NAV ── */
         .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 400;
             background: var(--bg);
             border-bottom: 1px solid var(--border);
             padding: 0 40px;
